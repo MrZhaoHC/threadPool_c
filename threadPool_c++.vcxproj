@@ -83,6 +83,9 @@
     <ClInclude Include="TaskQueue.h" />
     <ClInclude Include="ThreadPool.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link>
       <LibraryDependencies>pthread</LibraryDependencies>
